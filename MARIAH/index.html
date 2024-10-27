@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online de Mariah Carey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap">
+</head>
+<body>
+<header>
+    <h1>🦋Tienda de Mariah Carey🦋</h1>
+</header>
+
+<nav>
+    <ul>
+
+     <li><a href="#albumes">Álbumes</a></li>
+     <li><a href="#ropa">Ropa</a></li>
+     <li><a href="#accesorios">Accesorios</a></li>
+     <li><a href="#fotos">Fotos</a></li>
+     <li><a href="#biografia">Biografía</a></li>
+     <li><a href="#contacto">Contacto</a></li>
+
+    </ul>
+</nav>
+
+<main>
+    <div class="image-links productos">
+        <div class="producto highlight">
+            <a href="#albumes">
+                <img src="rainbow99album.jpg" alt="Álbumes">
+                <span>23 Álbumes</span>
+            </a>
+        </div>
+        <div class="producto highlight">
+            <a href="#ropa">
+                <img src="billiefrank.jpg" alt="Ropa">
+                <span>10 prendas</span>
+            </a>
+        </div>
+        <div class="producto highlight">
+            <a href="#fotos">
+                <img src="mariahdesierto.jpg" alt="Fotos">
+                <span>34 Fotos</span>
+            </a>
+        </div>
+    </div>
+
+        <section id="albumes">
+            <h2>Álbumes</h2>
+            <div class="productos-container">
+                <div class="productos">
+                    <div class="producto">
+                        <img src="debut.jpg" alt="Mariah Carey (1990)" />
+                        <h3>Mariah Carey (1990)</h3>
+                        <p>El debut que cambió el juego musical. Con una fusión de pop y R&B, Mariah presenta su impresionante rango vocal y hits inolvidables como "Vision of Love".</p>
+                        <span class="price">$35.00</span>
+                        <button onclick="addToCart('Mariah Carey', 35.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="emotions.jpg" alt="Emotions (1991)" />
+                        <h3>Emotions (1991)</h3>
+                        <p>Un álbum que explora el amor en todas sus facetas, desde la euforia hasta el desamor.</p>
+                        <span class="price">$40.00</span>
+                        <button onclick="addToCart('Emotions', 40.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="musicbox.jpg" alt="Music Box (1993)" />
+                        <h3>Music Box (1993)</h3>
+                        <p>La balada por excelencia, este álbum incluye clásicos como "Hero" y "Dreamlover".</p>
+                        <span class="price">$55.00</span>
+                        <button onclick="addToCart('Music Box', 55.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="merrychristmas.jpg" alt="Merry Christmas (1994)" />
+                        <h3>Merry Christmas (1994)</h3>
+                        <p>Un clásico navideño que ha resistido la prueba del tiempo.</p>
+                        <span class="price">$26.00</span>
+                        <button onclick="addToCart('Merry Christmas', 26.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="daydream.jpg" alt="Daydream (1995)" />
+                        <h3>Daydream (1995)</h3>
+                        <p>Un viaje sonoro que mezcla el soul con el pop, presenta algunos de los éxitos más memorables de Mariah, como "One Sweet Day" y "Fantasy".</p>
+                        <span class="price">$89.00</span>
+                        <button onclick="addToCart('Daydream', 89.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="butterfly.jpg" alt="Butterfly (1997)" />
+                        <h3>Butterfly (1997)</h3>
+                        <p>Un álbum de transformación personal que refleja su evolución como artista.</p>
+                        <span class="price">$87.00</span>
+                        <button onclick="addToCart('Butterfly', 87.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="rainbow.jpg" alt="Rainbow (1999)" />
+                        <h3>Rainbow (1999)</h3>
+                        <p>Una celebración de la diversidad musical y personal, "Rainbow" presenta una mezcla de géneros.</p>
+                        <span class="price">$40.00</span>
+                        <button onclick="addToCart('Rainbow', 40.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="glitter.jpg" alt="Glitter (2001)" />
+                        <h3>Glitter (2001)</h3>
+                        <p>"Glitter" es la banda sonora de una película que se adentra en el mundo del pop y el glamour de los años 80. Con una fusión de R&B y dance, este álbum presenta a Mariah en su elemento más vibrante. Incluye el exitoso sencillo "Loverboy", donde despliega su inconfundible voz junto a ritmos contagiosos. "Glitter" captura la esencia del empoderamiento y la autoexpresión, convirtiéndose en un homenaje a la cultura pop y a la perseverancia personal. Un viaje sonoro lleno de energía que resuena con el brillo de las estrellas.</p>
+                        <span class="price">$20.00</span>
+                        <button onclick="addToCart('Glitter', 20.00)">Agregar al Carrito</button>
+                    </div>
+                        <div class="producto">
+                        <img src="charmbracelet.jpg" alt="Charmbracelet (2002)" />
+                        <h3>Charmbracelet (2002)</h3>
+                        <p>Intimista y reflexivo, este álbum se siente como una carta abierta a los fanáticos.</p>
+                        <span class="price">$25.00</span>
+                        <button onclick="addToCart('Charmbracelet', 25.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="teom.jpg" alt="The Emancipation of Mimi (2005)" />
+                        <h3>The Emancipation of Mimi (2005)</h3>
+                        <p>Un renacimiento musical que reafirma su dominio en la industria.</p>
+                        <span class="price">$90.00</span>
+                        <button onclick="addToCart('The Emancipation of Mimi', 90.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="emc2.jpg" alt="E=MC² (2008)" />
+                        <h3>E=MC² (2008)</h3>
+                        <p>Un álbum lleno de energía y ritmo, "E=MC²" es una celebración de amor y vida.</p>
+                        <span class="price">$40.00</span>
+                        <button onclick="addToCart('E=MC²', 40.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="memoirs.jpg" alt="Memoirs of an Imperfect Angel (2009)" />
+                        <h3>Memoirs of an Imperfect Angel (2009)</h3>
+                        <p>Un enfoque honesto y vulnerable que revela las luchas y triunfos de la vida.</p>
+                        <span class="price">$30.00</span>
+                        <button onclick="addToCart('Memoirs of an Imperfect Angel', 30.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="elusive.jpg" alt="Me. I Am Mariah... The Elusive Chanteuse (2014)" />
+                        <h3>Me. I Am Mariah... The Elusive Chanteuse (2014)</h3>
+                        <p>Un viaje personal que refleja su legado y crecimiento.</p>
+                        <span class="price">$20.00</span>
+                        <button onclick="addToCart('Me. I Am Mariah... The Elusive Chanteuse', 20.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="caution.jpg" alt="Caution (2018)" />
+                        <h3>Caution (2018)</h3>
+                        <p>Una obra maestra contemporánea que destaca su madurez y autoconfianza.</p>
+                        <span class="price">$30.00</span>
+                        <button onclick="addToCart('Caution', 30.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="therarities.jpg" alt="The Rarities (2020)" />
+                        <h3>The Rarities (2020)</h3>
+                        <p>Una colección de tesoros ocultos que ofrece a los fanáticos una mirada más profunda a su carrera.</p>
+                        <span class="price">$25.00</span>
+                        <button onclick="addToCart('The Rarities', 25.00)">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ropa">
+            <h2>Ropa</h2>
+            <div class="productos-container">
+                <div class="productos">
+                    <div class="producto">
+                        <img src="shirt.jpg" />
+                        <h3>Camiseta Mariah</h3>
+                        <p>Esta sudadera de Mariah Carey es perfecta para los fanáticos que buscan comodidad y estilo. Confeccionada en algodón suave, presenta un diseño elegante con el nombre de Mariah en un estampado metálico que destaca. Ideal para mantenerte abrigado en los días fríos mientras muestras tu amor por la reina del pop. ¡Una prenda imprescindible para cualquier fan!</p>
+                        <span class="price">$25.00</span>
+                        <button onclick="addToCart('Camiseta Mariah', 25.00)">Agregar al Carrito</button>
+                    </div>
+                    <div class="producto">
+                        <img src="Mariah-Carey-Rainbow-Sweatshirt.jpg" />
+                        <h3>Sudadera Mariah</h3>
+                        <p>Luce esta camiseta oficial de Mariah Carey y lleva contigo el espíritu de la música pop. Hecha con algodón ligero y transpirable, es perfecta para cualquier ocasión. El diseño incluye una icónica foto de Mariah junto con su firma estampada, combinando estilo y fanatismo en una sola prenda. ¡Ideal para cualquier época del año!</p>
+                        <span class="price">$35.00</span>
+                        <button onclick="addToCart('Sudadera Mariah', 35.00)">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <div class="productos">
+                <div class="producto">
+                    <img src="cap.png" />
+                    <h3>Gorra Mariah</h3>
+                    <p>Añade un toque de estilo y personalidad a tu look con nuestra exclusiva gorra de Mariah Carey. Confeccionada con materiales de alta calidad, esta gorra presenta un diseño moderno y versátil que se adapta a cualquier ocasión.</p>
+                    <span class="price">$15.00</span>
+                    <button onclick="addToCart('Gorra Mariah', 15.00)">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="necklace.jpg" />
+                    <h3>Collar Mariah</h3>
+                    <p>Destaca con elegancia y glamour con nuestro exclusivo collar inspirado en Mariah Carey. Este accesorio único captura la esencia de la icónica cantante, ideal para añadir un toque sofisticado a cualquier atuendo.</p>
+                    <span class="price">$100.00</span>
+                    <button onclick="addToCart('Collar Mariah', 100.00)">Agregar al Carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <div class="carousel">
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <div class="carousel-images">
+                    <img src="1.jpg" onclick="openModal('1.jpg')" >
+                    <img src="2.jpg" onclick="openModal('2.jpg')" >
+                    <img src="3.jpg" onclick="openModal('3.jpg')">
+                    <img src="4.jpg" onclick="openModal('4.jpg')">
+                    <img src="5.jpg" onclick="openModal('5.jpg')">
+                    <img src="6.jpg" onclick="openModal('6.jpg')">
+                    <img src="7.jpg" onclick="openModal('7.jpg')">
+                    <img src="8.jpg" onclick="openModal('8.jpg')">
+                    <img src="9.jpg" onclick="openModal('9.jpg')">
+                    <img src="10.jpg" onclick="openModal('10.jpg')">
+                    <img src="11.jpg" onclick="openModal('11.jpg')">
+                    <img src="12.jpg" onclick="openModal('12.jpg')">
+                    <img src="13.jpg" onclick="openModal('13.jpg')">
+                    <img src="14.jpg" onclick="openModal('14.jpg')">
+                    <img src="15.jpg" onclick="openModal('15.jpg')">
+                    <img src="16.jpg" onclick="openModal('16.jpg')">
+                    <img src="17.jpg" onclick="openModal('17.jpg')">
+                    <img src="18.jpg" onclick="openModal('18.jpg')">
+                    <img src="19.jpg" onclick="openModal('19.jpg')">
+                    <img src="20.jpg" onclick="openModal('20.jpg')">
+                    <img src="21.jpg" onclick="openModal('21.jpg')">
+                    <img src="22.jpg" onclick="openModal('22.jpg')">
+                    <img src="23.jpg" onclick="openModal('23.jpg')">
+                    <img src="24.jpg" onclick="openModal('24.jpg')">
+                    <img src="25.jpg" onclick="openModal('25.jpg')">
+                    <img src="26.jpg" onclick="openModal('26.jpg')">
+                    <img src="27.jpg" onclick="openModal('27.jpg')">
+                    <img src="28.jpg" onclick="openModal('28.jpg')">
+                    <img src="29.jpg" onclick="openModal('29.jpg')">
+                    <img src="30.jpg" onclick="openModal('30.jpg')">
+                    <img src="31.jpg" onclick="openModal('31.jpg')">
+                    <img src="32.jpg" onclick="openModal('32.jpg')">
+                    <img src="33.jpg" onclick="openModal('33.jpg')">
+                    <img src="34.jpg" onclick="openModal('34.jpg')">
+                </div>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+        </section>
+
+        <section id="biografia" class="biografia-section">
+            <h2 class="biografia-title">Biografía de Mariah Carey</h2>
+            <p class="biografia-text">Mariah Carey, nacida el 27 de marzo de 1969 en Long Island, Nueva York, es una figura monumental en la música, reconocida por su extraordinario talento vocal y su capacidad de innovar en el pop y el R&B.</p>
+            <p class="biografia-text">Hija de un padre afroamericano y una madre de ascendencia irlandesa, Carey creció en un ambiente multicultural que enriqueció su perspectiva artística. Desde temprana edad, Carey mostró interés por la música, escribiendo sus propias canciones y participando en producciones teatrales.</p>
+            <div class="imagenfinal">
+                <img src="mariah9010.jpg" alt="Mariah Carey - Promotional Photoshoot 1990" onclick="openModal('mariah9010.jpg')">
+            </div>    
+            <p class="biografia-text">Durante la década de 1990, Carey se consolidó como la "reina del pop". Su álbum "Music Box" (1993) la catapultó a la fama global, con éxitos como "Dreamlover" y "Hero". En 1995, "Daydream" incluyó algunos de sus temas más memorables, como "Fantasy" y "One Sweet Day".</p>
+            <p class="biografia-text">Carey también ha sido pionera en la fusión de géneros, colaborando con artistas de hip hop y R&B, como Ol' Dirty Bastard en "Fantasy (Remix)" y Jay-Z en "Heartbreaker". Su enfoque innovador ayudó a redefinir el sonido del pop en la década de 1990 y principios de 2000.</p>       
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Mariah Carey. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="cart-icon" onclick="toggleCart()">
+        🛒 <span id="carrito-count">0</span>
+    </div>
+
+    <section id="carrito" class="hidden">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul> 
+        <button onclick="clearCart()">Vaciar Carrito</button>
+    </section>    
+
+    <script src="script.js"></script>
+
+<!-- Modal -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <button class="zoom-button" onclick="toggleZoom()">🔍</button>
+</div>
+</body>
+</html>
